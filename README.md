@@ -1,6 +1,7 @@
 # Header Bundles for C++23 Standard Library
  
-Provides a similar "API" to Microsoft's C++20 modular standard library (std.core, std.threading, etc.).
+Provides a similar "API" to Microsoft's C++20 modular standard library (std.core, std.threading, etc.). 
+This can be either imported as a submodule or you can download the latest release with just the headers.
 
 For example, instead of
 
