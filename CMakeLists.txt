@@ -4,7 +4,6 @@ project(cpp_lib_template)
 # ===================================================
 # TOP LEVEL CONFIGURATION
 # ===================================================
-add_subdirectory(src)
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/out/bin/$<CONFIG>/${CMAKE_SYSTEM_NAME}")
   if(WIN32)

@@ -1,6 +1,10 @@
-#include "library/library.hpp"
+#include "std/core.hpp"
 
-int main(const int, char**)
+auto main(const int, char**) -> int
 {
-  lib::greet();
+  std::array a{ 1, 2, 3, 4 };
+  
+  for (const auto& e: a) {
+    std::cout << e << '\n';
+  }
 }
