@@ -12,4 +12,4 @@ You use
 
 There is also a "c.hpp" for the libraries inherited from C in the C++ standard library, and also a "library.hpp" for including the entire C++ standard library all at once.
 
-Headers not yet implemented in compilers will be guarded by feature-testing macros.
+Newer headers not yet implemented in MSVC will be guarded by feature-testing macros.
